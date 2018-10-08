@@ -75,8 +75,8 @@
         If V is true, type is T, otherwise U.
     ***/
 
-    template< bool V, typename T, typename U > struct select { typedef U type; };
-    template<typename T, typename U > struct select<true,T,U>{ typedef T type; };
+//     template< bool V, typename T, typename U > struct select { typedef U type; };
+//     template<typename T, typename U > struct select<true,T,U>{ typedef T type; };
 
 
     /***
